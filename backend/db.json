@@ -46,7 +46,7 @@
       "id": "task-1",
       "weekId": "2025-W20",
       "title": "Review Vue 3 Documentation",
-      "description": "Deep dive into Composition API and new features",
+      "description": "Deep dive into Composition API and new features updated",
       "areas": [
         "learning",
         "work"
@@ -55,7 +55,7 @@
       "actualMinutes": 275,
       "status": "completed",
       "createdAt": "2025-05-12T09:00:00.000Z",
-      "updatedAt": "2025-05-15T16:45:00.000Z"
+      "updatedAt": "2026-04-28T18:22:11.771Z"
     },
     {
       "id": "task-2",
