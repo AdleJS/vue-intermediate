@@ -1,19 +1,17 @@
 <script setup lang="ts">
-import BaseTextInput from '@/components/BaseTextInput.vue'
-import { ref } from 'vue'
-
-const firstName = ref('')
+import SlotDemo from '@/components/SlotDemo.vue'
 </script>
 
 <template>
   <h1>Sandbox Page</h1>
-  <p>{{ firstName }}</p>
-  <BaseTextInput
-    id="first-name"
-    label="First name"
-    placeholder="My Test placholder"
-    v-model="firstName"
-  />
+  <SlotDemo>
+    <template v-slot:default="slotProps">
+      <p>{{ slotProps.count }}</p>
+    </template>
+    <template v-slot:footer>
+      <p>This is my footer content</p>
+    </template>
+  </SlotDemo>
 </template>
 
 <style scoped></style>
